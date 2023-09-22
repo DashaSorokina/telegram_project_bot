@@ -7,7 +7,7 @@ import webbrowser
 from telebot import types
 import requests
 from currency_converter import CurrencyConverter
-
+import pandas
 load_dotenv()
 
 bot = telebot.TeleBot(os.getenv("BOT_KEY"))
